@@ -68,6 +68,8 @@ This project investigates datasets from [Gapminder World](https://www.gapminder.
           - mean annual energy use per person in each country and
           - mean annual GDP/capita in each country
       * Findings from reviewing these plots were used to elaborate on the analysis deduced from the scatter plot that the distribution of each variable must be right-skewed.
+5. Conclusion > Limitations
+    - Sub-section __Limitations__ was added to the __Conclusions__ to discuss the limitations of the datasets and  how any causality between two variables could not be deduced with certainty due to these limitations. Possible sources of improvements to these limitations were also briefly mentioned.
 
 ## Author
 Jong Min (Jay) Lee [jmlee5629@gmail.com]
