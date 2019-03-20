@@ -41,6 +41,10 @@ This project investigates datasets from [Gapminder World](https://www.gapminder.
   * summarizes the findings from the exploratory data analysis, including trends, correlations, distributions, and possible explanations for the observations.
   * qualifies the findings with limitations of the analysis in terms of investigating causation.
 
+## Version Update from v1.0 to v2.0
+1. Data Wrangling Phase > Identify Outliers
+    - __Data Cleaning__ section from v1.0 mentioned that visual inspection of the scatter plot was used to determine the lower bounds of `mean_gdp` and `mean_cons` for the outliers. To support this information, the initial scatter plot used to identify the outliers was newly added to the end of the __Data Cleaning__ section for __GDP vs. Energy Consumption__.
+
 ## Author
 Jong Min (Jay) Lee [jmlee5629@gmail.com]
 
