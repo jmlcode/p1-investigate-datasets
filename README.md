@@ -8,6 +8,7 @@ This project investigates datasets from [Gapminder World](https://www.gapminder.
   * Packages
     - pandas
     - numpy
+    - copy
     - matplotlib.pyplot
     - seaborn
 * Raw Data
@@ -44,6 +45,8 @@ This project investigates datasets from [Gapminder World](https://www.gapminder.
 ## Version Update from v1.0 to v2.0
 1. Data Wrangling Phase > Identify Outliers
     - __Data Cleaning__ section from v1.0 mentioned that visual inspection of the scatter plot was used to determine the lower bounds of `mean_gdp` and `mean_cons` for the outliers. To support this information, the initial scatter plot used to identify the outliers was newly added to the end of the __Data Cleaning__ section for __GDP vs. Energy Consumption__.
+2. Code Functionality > Warnings
+    - When cleaning the datasets `df_energy_cons_v2` and `df_gdp_v2` to create `df_energy_cons_v3` and `df_gdp_v3`, `copy.copy()` was used to create copies of `df_energy_cons_v2` and `df_gdp_v2` instead of making changes to the original datasets.
 
 ## Author
 Jong Min (Jay) Lee [jmlee5629@gmail.com]
