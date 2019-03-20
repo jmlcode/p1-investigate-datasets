@@ -47,6 +47,16 @@ This project investigates datasets from [Gapminder World](https://www.gapminder.
     - __Data Cleaning__ section from v1.0 mentioned that visual inspection of the scatter plot was used to determine the lower bounds of `mean_gdp` and `mean_cons` for the outliers. To support this information, the initial scatter plot used to identify the outliers was newly added to the end of the __Data Cleaning__ section for __GDP vs. Energy Consumption__.
 2. Code Functionality > Warnings
     - When cleaning the datasets `df_energy_cons_v2` and `df_gdp_v2` to create `df_energy_cons_v3` and `df_gdp_v3`, `copy.copy()` was used to create copies of `df_energy_cons_v2` and `df_gdp_v2` instead of making changes to the original datasets.
+3. Code Functionality > Use of Functions
+    - In the __Exploratory Data Analysis__ section right before the analysis for __CO2 Emissions vs. Oil and Coal Consumption__, a new sub-section __Custom Functions__ was added, introducing two new functions in order to streamline generation of basic plots such as bar plot and histogram.
+      * plot_bar()
+          - requires input parameters for the dataframe, the variables for x and y axes, a list containing the labels for the title and the two axes, and the width of each bar
+          - generates a bar plot based on the provided input parameters
+          - used in __CO2 Emissions vs. Oil and Coal Consumption__ for plotting the mean annual consumption of oil and coal for the top five countries and the mean annual emissions of CO2 for the top five contributors.
+      * plot_hist()
+          - requires input parameters for the variable, number of bins, and a list containing the labels for the title and the two axes
+          - generates a histogram plot based on the provided input parameters
+          - used in __GDP vs. Energy Consumption__ for plotting the distribution of each of the two variables, mean annual energy use per person and mean annual GDP/capita.
 
 ## Author
 Jong Min (Jay) Lee [jmlee5629@gmail.com]
