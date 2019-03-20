@@ -57,6 +57,17 @@ This project investigates datasets from [Gapminder World](https://www.gapminder.
           - requires input parameters for the variable, number of bins, and a list containing the labels for the title and the two axes
           - generates a histogram plot based on the provided input parameters
           - used in __GDP vs. Energy Consumption__ for plotting the distribution of each of the two variables, mean annual energy use per person and mean annual GDP/capita.
+4. Exploration Phase > Single-variable Exploration
+    - __CO2 Emissions vs. Oil and Coal Consumption__
+      * Two new bar plots were added, each of which focuses on a single variable:
+          - mean annual consumption of oil and coal for the top five countries and
+          - the mean annual emissions of CO2 for the top five contributors
+      * Findings from reviewing these plots were used to compare the quantities observed across the five countries.
+    - __GDP vs. Energy Consumption__
+      * Two new histograms were added, each of which focuses on a single variable:
+          - mean annual energy use per person in each country and
+          - mean annual GDP/capita in each country
+      * Findings from reviewing these plots were used to elaborate on the analysis deduced from the scatter plot that the distribution of each variable must be right-skewed.
 
 ## Author
 Jong Min (Jay) Lee [jmlee5629@gmail.com]
